@@ -1,0 +1,16 @@
+// String buffer and builder-Contents can be modified
+import java.lang.StringBuffer;
+class Stringbufferbuilder{
+    public static void main(String[] args) {
+        StringBuffer name=new StringBuffer("Pavi");
+        System.out.println(name+"\n");
+        name.append(" Dharma");
+        System.out.println(name);   //Pavi Dharma
+       
+       //String builder
+       System.out.println("---Using StringBuilder---");
+       StringBuilder name2=new StringBuilder("Dharma");
+       name2.append("lingam");
+       System.out.println(name2);  //Dharmalingam
+    }
+}
