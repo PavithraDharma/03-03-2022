@@ -1,0 +1,11 @@
+/*
+AutoUnboxing -The automatic conversion of wrapper type into its corresponding primitive type is known as unboxing.
+*/
+
+class AutoUnbox {
+    public static void main(String[] args) {
+       Integer age=new Integer(5);//Wrapper class
+       int a=age.intValue();
+       System.out.println(age+"  "+a);
+    }
+}
