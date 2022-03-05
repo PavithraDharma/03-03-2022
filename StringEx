@@ -1,0 +1,12 @@
+// String Handling
+
+class StringEx {
+    public static void main(String[] args) {
+        String name="Pavithra";
+        System.out.println(name);
+        System.out.println("---using char---");
+        char n[]={'P','a','v','i'};
+        System.out.println(n);
+        System.out.println("String length= " +n.length);
+    }
+}
