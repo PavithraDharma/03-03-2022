@@ -1,0 +1,15 @@
+//Swapping two strings
+import java.util.Scanner;
+class Swap {
+    public static void main(String[] args) {
+        String str,str1,temp;
+      Scanner scan=new Scanner(System.in);
+      str=scan.nextLine();
+      str1=scan.nextLine();
+      temp=str;
+      str=str1;
+      str1=temp;
+      System.out.println("------After Swapping-----");
+      System.out.println(str+"\n"+str1);
+    }
+}
