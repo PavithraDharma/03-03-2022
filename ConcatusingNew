@@ -1,0 +1,8 @@
+//using new
+class ConcatusingNew{
+    public static void main(String[] args) {
+        String fname=new String("Pavithra");
+        String lname=new String("Dharmalingam");
+        System.out.println(fname+" "+lname);
+    }
+}
