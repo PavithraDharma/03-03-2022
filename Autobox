@@ -1,0 +1,10 @@
+/*Autoboxing -The automatic conversion of primitive data type into its corresponding wrapper class is known as autoboxing..
+*/
+
+class Autobox {
+    public static void main(String[] args) {
+       int age=25;
+       Integer ageval=Integer.valueOf(age);
+       System.out.println(age+"  "+ageval);
+    }
+}
