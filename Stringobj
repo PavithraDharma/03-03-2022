@@ -1,0 +1,22 @@
+/* About String objects..10th line returns true as it compares two strings inside string constant pool(if two content are same no new memory is allocated ).
+  But in 19th line memory space is allocated seperately though content are same and output is false
+*/
+
+class Stringobj {
+    public static void main(String[] args) {
+        
+        //Using literals
+        String s1="hello";
+        String s2="hello";
+        String s3="hi";
+        System.out.println(s1==s2);  //return true
+        System.out.println("---------");
+        
+        //Using new keyword
+        String s11=new String("hello");
+        String s12=new String("hello");
+        String s13=new String("hi");
+        System.out.println(s11==s12);   //return false
+    }
+}
+
