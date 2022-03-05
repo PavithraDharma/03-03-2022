@@ -1,0 +1,8 @@
+//using literal concat
+class Concatusingliteral{
+    public static void main(String[] args) {
+        String fname="Pavithra";
+        String lname="Dharmalingam";
+        System.out.println(fname+" "+lname);
+    }
+}
