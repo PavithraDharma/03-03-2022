@@ -1,0 +1,11 @@
+// String Handling
+
+class StringImmutable {
+    public static void main(String[] args) {
+        String fname="Pavi";
+        System.out.println(fname);
+        fname.concat("Dharma");
+        System.out.println(fname);   //will not concat  
+        
+    }
+}
